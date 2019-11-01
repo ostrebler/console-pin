@@ -2,9 +2,9 @@
   "name": "console-pin",
   "version": "1.0.0",
   "description": "Pin the browser's console in a corner of the screen while coding, just showing you what you need to know, and get rid of that massive devtool taking up half of your screen just for some logs.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,18 @@
   "bugs": {
     "url": "https://github.com/ostrebler/console-pin/issues"
   },
-  "homepage": "https://github.com/ostrebler/console-pin#readme"
+  "homepage": "https://github.com/ostrebler/console-pin#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [],
+  }
 }
