@@ -1,0 +1,32 @@
+{
+  "name": "console-pin",
+  "version": "1.0.0",
+  "description": "Pin the browser's console in a corner of the screen while coding, just showing you what you need to know, and get rid of that massive devtool taking up half of your screen just for some logs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ostrebler/console-pin.git"
+  },
+  "keywords": [
+    "pin",
+    "console",
+    "terminal",
+    "log",
+    "error",
+    "warn",
+    "warning",
+    "popup",
+    "tiny",
+    "small",
+    "reduce"
+  ],
+  "author": "ostrebler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ostrebler/console-pin/issues"
+  },
+  "homepage": "https://github.com/ostrebler/console-pin#readme"
+}
