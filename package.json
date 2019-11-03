@@ -36,7 +36,8 @@
     "@babel/preset-react": "^7.6.3"
   },
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "babel": {
     "presets": ["@babel/preset-env", "@babel/preset-react"],
